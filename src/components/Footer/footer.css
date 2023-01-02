@@ -1,0 +1,12 @@
+.mainFooter{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--primary-color);
+	color: var(--white);
+	padding: 16px;
+	width: 100vw;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+}
