@@ -10,3 +10,12 @@
 	position: fixed;
 	bottom: 0;
 }
+.mainFooter_socialMedia{
+    display: flex;
+	gap: 18px;  
+}
+
+.mainFooter_socialMedia svg {
+    cursor: pointer;
+	font-size: 26px;
+}
