@@ -1,12 +1,14 @@
-import React from "react";
-import {mount} from 'enzyme'
-import Footer from '../../components/Footer/Footer.jsx'
+import React from 'react';
+import { mount } from 'enzyme';
+import Footer from '../../components/Footer/Footer.jsx';
 
+describe('<Footer />', () => {
+  const footer = mount(<Footer/>);
 
-describe('<Footer/>', () => {
-    test('render del componente footer', () => {
-        const footer = mount(<Footer/>)
-        expect(footer.length).toEqual(1)
-       })
-    
-})
+  test('Render del componente Footer', () => {
+    expect(footer.length).toEqual(1);
+  });
+  test('Render del titulo', () => {
+    expect(footer.find('mainFooter').text()).toEqual('©2022 Digital Booking');
+  });
+});

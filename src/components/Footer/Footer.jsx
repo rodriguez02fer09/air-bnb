@@ -10,7 +10,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="mainFooter">
-      <p> ©2022 Digital Booking</p>
+      <p className="mainfooter_title"> ©2022 Digital Booking</p>
       <div className="mainFooter_socialMedia">
         <FaInstagram/> 
         <FaTwitter/>
