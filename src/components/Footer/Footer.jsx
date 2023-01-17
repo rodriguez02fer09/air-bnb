@@ -1,24 +1,20 @@
-import React from "react";
+import "./Footer.css";
 import {
-  FaInstagram,
-  FaTwitter,
-  FaFacebook,
-  FaLinkedinIn,
+	FaInstagram,
+	FaTwitter,
+	FaFacebook,
+	FaLinkedinIn,
 } from "react-icons/fa";
-import "./footer.css";
 
-const Footer = () => {
-  return (
-    <footer className="mainFooter">
-      <p> ©2022 Digital Booking</p>
-      <div className="mainFooter_socialMedia">
-        <FaInstagram/> 
-        <FaTwitter/>
-        <FaFacebook/> 
-        <FaLinkedinIn/>
-        </div>
-    </footer >
-  );
-};
+const Footer = () =>
+	<footer className="footer">
+		<p>©2022 Digital Booking</p>
+		<div className="social-media">
+			<FaFacebook/>
+			<FaLinkedinIn/>
+			<FaTwitter/>
+			<FaInstagram/>
+		</div>
+	</footer>
 
 export default Footer;
