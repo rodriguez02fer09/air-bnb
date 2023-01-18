@@ -1,4 +1,5 @@
 import React from "react";
+import "./login.css"
 
 const Login = ()=>{
 
@@ -8,3 +9,4 @@ const Login = ()=>{
         </div>
     )
 }
+export default Login;
