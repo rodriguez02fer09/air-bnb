@@ -1,0 +1,50 @@
+.container-input__label {
+  width: 448px;
+  height: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+
+}
+.container-input_input{
+    width: 100%;
+    height: 40px;
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    border: none;
+    margin: 5px 0px;
+   
+
+    
+}
+.container-input__input:focus {
+    outline: 1px solid var(--secondary-color);
+    width: 100%;
+    background: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    border: none;
+    padding-inline: 14px;
+    padding-block: 10px;
+}
+
+
+    
+.input_1{
+    width: 300px;
+    height: 40px;
+}
+.input_2{
+    width: 346px;
+    height: 40px;
+}
+.input_3{
+    width: 448px;
+    height: 40px;
+}
+

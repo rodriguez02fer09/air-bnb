@@ -29,3 +29,22 @@
     color: var(--white);
 	background: var(--primary-color);
 }
+.btn_1{
+    width: 206px;
+    height: 40px;
+    margin-top: 54px;
+}
+.btn_2{
+    width: 296px;
+    height: 40px;
+}
+.btn_3{
+    width: 346px;
+    height: 40px;
+}
+.btn_4{
+    width: 362px;
+    height: 40px;
+}
+
+
