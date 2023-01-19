@@ -1,11 +1,11 @@
 import React from "react";
 import "./login.css"
-
+import Button from "../../components/Button/Button"
 const Login = ()=>{
 
     return(
         <div>
-            <h1>HOLA</h1>
+          <Button/>
         </div>
     )
 }

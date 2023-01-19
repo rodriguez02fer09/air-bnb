@@ -1,0 +1,31 @@
+.btn {
+    width: 206px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.btn:active {
+	transform: scale(.9);
+}
+.btn-dark {
+    background-color:var(--primary-color);
+    color:var(--white);
+}
+.btn-dark:hover {
+    filter: brightness(1.5);
+}
+
+.btn-light {
+    background-color:var(--white);
+    color:var(--primary-color);
+}
+.btn-light:hover {
+    color: var(--white);
+	background: var(--primary-color);
+}
