@@ -1,0 +1,31 @@
+.main_container{
+    height:860px;
+    background-color: #FFE4E3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_container {
+	max-width: 448px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_container  .container_input {
+	margin-top: 6px;
+	width: 100%;
+    display:flex;
+      
+}
+.container_button{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 51px;
+    
+}

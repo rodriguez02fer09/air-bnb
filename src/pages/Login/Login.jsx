@@ -9,7 +9,7 @@ const Login = () => {
         <h1 className="text-primary">Inicar Sesión</h1>
         <Input label="Correo Electronico" type="text" size="3" />
         <Input label="Contraseña" type="text" size="3" />
-        <Button text="Ingresar" style="dark" size="1" />
+        <Button  text="Ingresar" style="dark" size="btn_1" />
         <p>¿Aún no tenes cuenta?</p>
         <a href="/register">Registrate</a>
       </form>
