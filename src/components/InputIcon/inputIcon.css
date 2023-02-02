@@ -1,0 +1,27 @@
+.container_dropDown {
+    width: 430px;
+    height: 42px;
+}
+
+.container_dropDown_input input {
+    width: 422px;
+    height: 40px;
+    background: #FFFFFF;
+    /* input shadow */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px ;
+    border: #FFFFFF;
+    color: #7F7F7F;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: 25px;
+    padding-left: 27px;
+    
+}
+.container_dropDown_input img{
+    position: absolute;
+    margin-top:10px ;
+    margin: 8px;
+    color: #7F7F7F;
+}
