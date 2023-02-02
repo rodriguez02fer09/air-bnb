@@ -1,0 +1,33 @@
+.container_item {
+    width: 422px;
+    height: 59px;
+    background: var(--white);
+    border-bottom: 2px solid #F0572D;
+    display: flex;
+}
+
+.container_item_img {
+    margin: 15px;
+}
+
+.container_item_descripcion {
+    margin: 10px;
+}
+
+.container_item_ciudad {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.container_item_pais {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545776;
+}
