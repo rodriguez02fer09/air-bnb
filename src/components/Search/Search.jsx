@@ -1,11 +1,9 @@
 import React from "react";
 import "./search.css"
-import InputIcon from "../InputIcon/InputIcon";
 import Button from '../Button/Button'
-import LocationIcon  from"../../assets/locationIcon.svg"
-import ItemCities from "../ItemCities/ItemCities"
+import DropDownLocations from "../DropDownLocations/DropDownLocations"
 
-
+const locations =[{ciudad:"San Carlos de Bariloche",pais:"Argentina"},{ciudad:"Buenos Aires",pais:"Argentina"},{ciudad:"Mendoza",pais:"Argentina"},{ciudad:"Córdoba",pais:"Argentina"}]
 
 const Search = () => {
   return (
@@ -14,8 +12,7 @@ const Search = () => {
         Busca ofertas en hoteles , casa y mucho más
       </h1>
       <div className="container_search_cities_date">
-     <InputIcon placeholder="¿ A donde vamos" img = {LocationIcon}/>
-    <ItemCities/>
+      <DropDownLocations locations={locations}/>
       <Button text="Buscar" style="dark" size="0" />
       </div>
     </section>
