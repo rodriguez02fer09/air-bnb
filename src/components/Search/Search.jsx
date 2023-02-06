@@ -3,7 +3,7 @@ import "./search.css"
 import Button from '../Button/Button'
 import DropDownLocations from "../DropDownLocations/DropDownLocations"
 
-const locations =[{ciudad:"San Carlos de Bariloche",pais:"Argentina"},{ciudad:"Buenos Aires",pais:"Argentina"},{ciudad:"Mendoza",pais:"Argentina"},{ciudad:"Córdoba",pais:"Argentina"}]
+const locations =[{city:"San Carlos de Bariloche",country:"Argentina"},{city:"Buenos Aires",country:"Argentina"},{city:"Mendoza",country:"Argentina"},{city:"Córdoba",country:"Argentina"}]
 
 const Search = () => {
   return (
