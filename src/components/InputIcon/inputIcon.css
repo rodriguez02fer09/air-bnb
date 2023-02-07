@@ -1,6 +1,7 @@
 .container_dropDown {
     width: 430px;
     height: 42px;
+    margin-bottom:4px; ;
 }
 
 .container_dropDown_input input {
