@@ -3,7 +3,7 @@ import "./dropDownLocations.css";
 import InputIcon from "../InputIcon/InputIcon"
 import ItemCities from "../ItemCities/ItemCities";
 
-const DropDownLocations = ({locations = []}) => {
+const DropDownLocations = ({locations = [], img }) => {
 
   const [open , setOpen] = useState (false);
   const handlerOnClick = () => {
@@ -11,7 +11,7 @@ const DropDownLocations = ({locations = []}) => {
   }
 
   return (<div className="container-dorpdowncities">
-    <InputIcon handlerOnClick={handlerOnClick} placeholder="¿ A donde vamos?" />
+    <InputIcon handlerOnClick={handlerOnClick} img={img} placeholder="¿ A donde vamos?" />
     {open && locations.map(({city, country}, index)=>{
       return (<ItemCities key={index} city={city} country={country}/>)
     })}
