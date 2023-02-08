@@ -1,5 +1,7 @@
 .container-dorpdowncities{
-    width: 200px;
-    height:310px;
-    margin-top: 282px;
+    margin-right: 5px;
+}
+
+.container-list{
+    position: absolute;
 }

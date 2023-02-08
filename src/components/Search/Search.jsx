@@ -21,9 +21,17 @@ const Search = () => {
           <h1>Busca ofertas en hoteles , casa y mucho más</h1>
         </div>
         <div className="container_search_dropdown">
-          <DropDownLocations img={locationIconBlack} locations={locations} />
-          <DropDownDate img={dateIcon} placeholder="Check in - Check out" />
-          <Button text="Buscar" style="dark" size="0" />
+          <div className="container_search_dropdown_input">
+            <DropDownLocations
+              className="container_search_dropdown_DropDownLocations"
+              img={locationIconBlack}
+              locations={locations}
+            />
+            <DropDownDate img={dateIcon} placeholder="Check in - Check out" />
+          </div>
+          <div className="container_search_button">
+            <Button text="Buscar" style="dark" size="btn_1" />
+          </div>
         </div>
       </div>
     </section>
