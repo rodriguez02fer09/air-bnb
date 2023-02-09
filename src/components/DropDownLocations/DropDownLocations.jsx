@@ -8,18 +8,18 @@ const DropDownLocations = ({locations = [], img }) => {
   const [open , setOpen] = useState (false);
   const [currentLocation , setCurrentLocation]=useState()
 
-  const handlerOnClick = () => {
+  const toggleDropDown = () => {
     setOpen(!open)
   }
 
-  const selectLocation = (location )=>{
+  const selectLocation = (location ) => {
     setOpen(!open)
     setCurrentLocation(location)
   }
 
   return (
   <div className="container-dorpdowncities">
-    <InputIcon value={currentLocation} handlerOnClick={handlerOnClick} img={img} placeholder="¿ A donde vamos?" />
+    <InputIcon value={currentLocation} handlerOnClick={toggleDropDown} img={img} placeholder="¿ A donde vamos?" />
     <div className="container-list">
       {open && locations.map(({city, country}, index)=>{
         return (

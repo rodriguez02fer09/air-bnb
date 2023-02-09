@@ -3,8 +3,10 @@ import "./itemCities.css";
 import LocationIconBlack from "../../assets/locationIconBlack.svg";
 
 const ItemCities = ({ city, country,  handlerClick }) => {
+  const location = `${city} - ${country}`;
+
   return (
-    <div className="container_item" onClick={() => handlerClick(city)}>
+    <div className="container_item" onClick={() => handlerClick(location)}>
       <div className="container_item_img">
         <img src={LocationIconBlack} alt="location" />
       </div>

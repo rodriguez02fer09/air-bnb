@@ -5,6 +5,7 @@
     background: var(--white);
     border-bottom: 2px solid #F0572D;
     display: flex;
+    cursor: pointer;
 }
 .container_item_img {
     margin: 15px;
