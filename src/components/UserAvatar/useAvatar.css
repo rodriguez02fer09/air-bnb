@@ -1,0 +1,6 @@
+.navBar_Name p{
+    color: var(--gray);
+}
+.navBar_Name p:nth-child(2n) {
+    color:var(--primary-color) ;
+}

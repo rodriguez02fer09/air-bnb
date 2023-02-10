@@ -1,21 +1,17 @@
 import React from "react";
 import "./avatar.css";
+import SloganAvatar from "../SloganAvatar/SloganAvatar";
+import UserAvatar from "../UserAvatar/UserAvatar";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Avatar = () => {
   return (
-
-        <div className="container_navbar_info">
-          <div className="navBar_logoName">
-            <p>BR</p>
-          </div>
-          <div className="navBar_Name">
-            <p>hola, </p>
-            <p> Bruno Rodriguez</p>
-          </div>
-        </div>
-     
-   
+    <div className="container_navbar_info">
+      <SloganAvatar />
+      <UserAvatar />
+      <AiOutlineClose />
+    </div>
   );
 };
+
 export default Avatar;
-``

@@ -10,7 +10,7 @@ const Header = () => {
         <img src={logo} alt="Logo" />
         <p>Sentite como en tu hogar</p>
       </div>
-     <Avatar/> 
+      <Avatar/>
     </header>
   );
 };

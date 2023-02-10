@@ -1,35 +1,7 @@
 .container_navbar_info {
-    width: 190px;
+    width: 200px;
     height: 40px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.navBar_logoName {
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    background-color: var(--secondary-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.navBar_logoName p {
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    justify-content: space-around;
-    color: #FFFFFF;
-}
-.navBar_Name p:first-child{
-    color: var(--gray);
-}
-.navBar_Name p:nth-child(2n) {
-    color:var(--primary-color) ;
 }
