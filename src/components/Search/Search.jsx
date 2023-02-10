@@ -32,6 +32,7 @@ const Search = () => {
           <div className="container_search_button">
             <Button text="Buscar" style="dark" size="btn_1" />
           </div>
+         
         </div>
       </div>
     </section>
