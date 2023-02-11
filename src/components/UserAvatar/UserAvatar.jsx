@@ -1,20 +1,14 @@
 import React from "react";
-import "./useAvatar.css"
+import "./useAvatar.css";
 
-
-const UserAvatar = () => {
+const UserAvatar = ({ name, lastName }) => {
   return (
-
-       
-          <div className="navBar_Name">
-            <p>Hola, </p>
-            <p> Bruno Rodriguez</p>
-            
-          </div>
-         
-     
-     
-   
+    <div className="navBar_Name">
+      <p>Hola, </p>
+      <p>
+        {name} {lastName}
+      </p>
+    </div>
   );
 };
 export default UserAvatar;
