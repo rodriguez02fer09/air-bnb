@@ -1,7 +1,14 @@
 .container_navbar_info {
-    width: 500px;
+    width: 300px;
     height: 40px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction:row;
+    justify-content: end;
+    
+}
+.container_navbar_button{
+    display: flex;
+   
+    
+    
 }

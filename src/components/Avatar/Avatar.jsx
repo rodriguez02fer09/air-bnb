@@ -30,9 +30,12 @@ const Avatar = () => {
         </>) 
       :
         (<>
-          <Button  text="Ingresar" style="btn-light" size="btn_1" />
-          <Button  text="Crear cuenta" style="btn-light" size="btn_1" />
+        <div className="container_navbar_button">
+          <Button  text="Ingresar" style="light " size="btn_1" />
+          <Button  text="Crear cuenta" style="light" size="btn_1" />
+          </div>
         </>)
+        
        
     }
       
