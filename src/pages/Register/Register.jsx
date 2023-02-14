@@ -11,7 +11,6 @@ const formRegister = {
   confirPasword: " ",
 }
 
-
 // const formRegister = {
 //   name:"fernanda",
 //   lastName: " ",
@@ -20,13 +19,10 @@ const formRegister = {
 //   confirPasword: " ",
 // }
 
-
 const nombreaPropiedad= "name"
 // formRegister.name  ="fernanda"
 // formRegister['name']  ="fernanda"
 // formRegister[nombreaPropiedad]  ="fernanda"
-
-
 
 const Register = () => {
   
@@ -44,8 +40,6 @@ const  handlerOnChange = (event) => {
 
   console.log(register)
 }
-
-
   return (
 
       <div className="main_container">
@@ -66,6 +60,7 @@ const  handlerOnChange = (event) => {
         <p>¿Ya tienes  cuenta?</p>
         <a href="/login">Inciar sesíon</a>
         </div>
+        
         </form>
       </div>
     
