@@ -9,7 +9,7 @@ const DropDownLocations = ({locations = [], img }) => {
   const [currentLocation , setCurrentLocation]=useState()
 
   const toggleDropDown = () => {
-    setOpen(!open)
+    setOpen((state) => !state)
   }
 
   const selectLocation = (location ) => {
