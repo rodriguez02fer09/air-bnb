@@ -10,7 +10,6 @@ const formRegister = {
   password : " ",
   confirPasword: " ",
 }
-
 // const formRegister = {
 //   name:"fernanda",
 //   lastName: " ",
@@ -18,7 +17,6 @@ const formRegister = {
 //   password : " ",
 //   confirPasword: " ",
 // }
-
 const nombreaPropiedad= "name"
 // formRegister.name  ="fernanda"
 // formRegister['name']  ="fernanda"

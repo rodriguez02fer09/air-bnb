@@ -19,6 +19,11 @@ const Login = () => {
     setLogin((state) => {
       return {
         ...state,
+        // const {name, value} = event.target;
+
+        //  const name = event.target.name;
+        //  const value1 = event.target.value;
+
         [event.target.name]: event.target.value
       }
     })
