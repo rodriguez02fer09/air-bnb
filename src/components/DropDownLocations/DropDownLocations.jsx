@@ -19,7 +19,7 @@ const DropDownLocations = ({locations = [], img }) => {
 
   return (
   <div className="container-dorpdowncities">
-    <InputIcon value={currentLocation} handlerOnClick={toggleDropDown} img={img} placeholder="¿ A donde vamos?" />
+    <InputIcon value={currentLocation} handlerOnClick={toggleDropDown} img={img} placeholder="¿ A donde vamos?" size="3" />
     <div className="container-list">
       {open && locations.map(({city, country}, index)=>{
         return (
