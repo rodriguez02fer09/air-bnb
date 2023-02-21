@@ -16,10 +16,10 @@ const locations = [
 const Search = () => {
   return (
     <section className="container_search">
-      <div className="container_search_title">
+      <div className="container_search_cities_date">
+        <div className="container_search_title">
           <h1>Busca ofertas en hoteles , casa y mucho más</h1>
         </div>
-      <div className="container_search_cities_date">
         <div className="container_search_dropdown">
           <div className="container_search_dropdown_input">
             <DropDownLocations img={locationIconBlack} locations={locations} />

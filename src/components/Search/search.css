@@ -14,6 +14,9 @@
     height: 150px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
+    padding: 0px 170px;
 }
 
 .container_search_title {
@@ -35,19 +38,19 @@
     width: 100%;
     height: 40px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 
 
 }
 
 .container_search_dropdown_input {
-
-
+    width: 100%;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    
 
 
 
