@@ -60,21 +60,44 @@ const detailInfor = [
 const DetailCards = () => {
   return (
     <div className="main-container__detail">
-      <div className="container_category_name">
-        <div className="categoy_starts">
-          <p>Hotel</p>
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
+      <div className="container-detail_info">
+        <div className="container-detail_category">
+          <div className="detail_category__product">
+            <p>Hotel</p>
+            <div className="detail_category__stars">
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+          </div>
+          <div className="detail_category__name">
+            <p>Hermitage Hotel</p>
+          </div>
         </div>
-        <div className="categoy_names">
-          <p>Hermitage Hotel</p>
+        <div className="detail-category__punta">
+          <div className="category__puntaje">
+            <p>8</p>
+          </div>
+          <p>Muy bueno</p>
         </div>
       </div>
-      <div class>
-
+      <div className="detail_category__location">
+        <FaMapMarkerAlt />
+        <p>A 940 m del centro
+        <a> Mostrar en el mapa</a>
+        </p>
+      </div>
+      <div className="category-location__icon">
+        <FaWifi />
+        <FaSwimmer />
+        </div>
+      <div className="detail_category__descrip">
+        <p>
+          En el corazón de San Telmo, disfruta de un albergue inspirado en las
+          pasiones de Buenos Aires <a href="">Ver màs ... </a>
+        </p>
       </div>
     </div>
   );

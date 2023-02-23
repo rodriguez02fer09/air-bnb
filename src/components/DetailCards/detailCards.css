@@ -1,8 +1,104 @@
-.main-container__detail{
+.main-container__detail {
     width: 300px;
     height: 250px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
     background-color: lightpink;
+}
+
+.container-detail_info {
+    width: 300px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container-detail_category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 220px;
+    height: 65px;
+   
+}
+
+.detail_category__product {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.detail_category__product p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+    /* B - DB COLOR 2 */
+    
+    color: #383B58;
+    
+    opacity: 0.5;
+    transform: rotate(-0.16deg);
+    
+}
+.detail_category__stars svg{
+    color: var(--primary-color);
+}
+.detail_category__location {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+    background-color: azure;
+}
+.detail_category__location svg{
+    color: #383B58;
+}
+.detail_category__location p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* B - DB COLOR 2 */
+
+color: #383B58;
+
+transform: rotate(-0.16deg);
+
+}
+.detail_category__name p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+/* B - DB COLOR 2 */
+
+color: #383B58;
+
+transform: rotate(-0.16deg);
+}
+.category-location__icon svg {
+    color: #383B58;
+}
+.detail_category__descrip p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* B - DB COLOR 2 */
+
+color: #383B58;
+
+transform: rotate(-0.16deg);
+
 }
