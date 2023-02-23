@@ -1,6 +1,8 @@
-.container_cards_info{
-    width: 100px;
-    height: 200px;
-    background-color:bisque;
+.main-container__detail{
+    width: 300px;
+    height: 250px;
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: lightpink;
 }

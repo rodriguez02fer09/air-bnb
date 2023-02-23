@@ -39,7 +39,9 @@ const products = [
 const RecomDetailProducts = () => {
   return (
     <div className="main_container_cards">
+      <div className="container_cards__title">
       <h2>Recomendaciones</h2>
+      </div>
       <div className="container_cards">
         {products.map(({ image }, index) => {
           return (
@@ -49,7 +51,6 @@ const RecomDetailProducts = () => {
                 <FaHeart />
               </div>
               <div className="container_detail__information">
-         
                <DetailCards/>
                <Button text="Ver más" style="dark" size="2" /> 
                </div>

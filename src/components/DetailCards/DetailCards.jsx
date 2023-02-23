@@ -57,7 +57,7 @@ const detailInfor = [
   },
 ];
 
-const DetailCards = ({ detailInfor }) => {
+const DetailCards = () => {
   return (
     <div className="main-container__detail">
       <div className="container_category_name">
@@ -73,7 +73,7 @@ const DetailCards = ({ detailInfor }) => {
           <p>Hermitage Hotel</p>
         </div>
       </div>
-      <div c>
+      <div class>
 
       </div>
     </div>
