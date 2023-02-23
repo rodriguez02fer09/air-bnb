@@ -4,18 +4,24 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+
+
+
 }
 
 .conatiner-products_title {
     width: 100%;
     height: 28px;
+    margin: 0px 0px 8px 48px;
+}
+
+.conatiner-products_title p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-  
+
     color: #383B58;
-    margin: 0px 0px 8px 48px;
 }
 
 .conatiner-products_category {
@@ -26,9 +32,10 @@
     box-sizing: border-box;
     align-items: center;
     margin-left: 43px;
-  
+    background-color: lightpink;
 }
-.card-category{
+
+.card-category {
     width: 310px;
     height: 260px;
     border: 1px solid #F3F1ED;
@@ -39,15 +46,17 @@
     flex-direction: column;
     justify-content: center;
 }
-.card-category:hover{
+
+.card-category:hover {
     transform: scale(1.05);
-	cursor: pointer;
+    cursor: pointer;
 }
 
-.card-category_img{
+.card-category_img {
     width: 310px;
     height: 210px;
 }
+
 .card-category_img img {
     width: 310px;
     height: 10px;

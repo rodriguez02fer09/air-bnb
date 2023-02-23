@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
   return (
     <div className="layout">
       <Header />
-      <main>{children}</main>
+     {children}
       <Footer />
     </div>
   );

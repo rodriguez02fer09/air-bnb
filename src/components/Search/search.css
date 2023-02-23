@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
    
-    padding: 0px 170px;
+    padding: 0px 100px;
 }
 
 .container_search_title {
@@ -56,4 +56,3 @@
 
 }
 
-.container_search_button {}
