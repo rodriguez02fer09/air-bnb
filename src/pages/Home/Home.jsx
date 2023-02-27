@@ -1,7 +1,7 @@
 import React from "react";
 import './home.css'
 import Search  from '../../components/Search/Search'
-// import CategoryProducts from "../../components/CategoryProcuts/CategoryProducts"
+import CategoryProducts from "../../components/CategoryProcuts/CategoryProducts"
  import RecomDetailProducts from "../../components/RecomDetailProcuts/RecomDetailProducts"
 
  const detailInfor = [
@@ -23,10 +23,10 @@ import Search  from '../../components/Search/Search'
       image:
         "https://images.unsplash.com/photo-1600077625345-f401f4ba2fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9zdGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       category: "Hotel",
-      stars: "5",
-      puntaje: "8",
+      stars: "4",
+      puntaje: "9",
       definicion: "Muy Bueno ",
-      title: "Hermitage Hotel",
+      title: "DoubleTree",
       location: "A 940 m del centro ",
       description:
         "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires",
@@ -37,10 +37,10 @@ import Search  from '../../components/Search/Search'
         "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRlcGFydGFtZW50b3MlMjBiZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   
       category: "Hotel",
-      stars: "5",
-      puntaje: "8",
+      stars: "4",
+      puntaje: "6",
       definicion: "Muy Bueno ",
-      title: "Hermitage Hotel",
+      title: "El Oasis",
       location: "A 940 m del centro ",
       description:
         "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires",
@@ -53,7 +53,7 @@ import Search  from '../../components/Search/Search'
       stars: "5",
       puntaje: "8",
       definicion: "Muy Bueno ",
-      title: "Hermitage Hotel",
+      title: "Amanvari",
       location: "A 940 m del centro ",
       description:
         "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires",
@@ -63,7 +63,7 @@ import Search  from '../../components/Search/Search'
 const Home = ()=>{
     return (<div className="main-container">
         <Search/>
-         {/* <CategoryProducts /> */}
+          <CategoryProducts />
        <RecomDetailProducts detailInfor={detailInfor}/>
          
         </div>
