@@ -1,10 +1,11 @@
 .main-container__detail {
-    width: 300px;
-    height: 250px;
+    width: 310px;
+    height: 272px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    background-color: lightpink;
+    justify-content: space-around;
+
+    margin-left: 18px;
 }
 
 .container-detail_info {
@@ -21,13 +22,16 @@
     justify-content: space-around;
     width: 220px;
     height: 65px;
-   
+
 }
 
 .detail_category__product {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
+    align-items: center;
+    width: 189px;
+    height: 28px;
 }
 
 .detail_category__product p {
@@ -36,69 +40,170 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    
+
     /* B - DB COLOR 2 */
-    
+
     color: #383B58;
-    
+
     opacity: 0.5;
     transform: rotate(-0.16deg);
-    
+
 }
-.detail_category__stars svg{
+.detail_category__stars{
+    margin-left: 8px;
+
+}
+.detail_category__stars svg {
     color: var(--primary-color);
 }
+
 .detail_category__location {
     display: flex;
     flex-direction: row;
     width: 300px;
     height: 30px;
-    background-color: azure;
+
 }
-.detail_category__location svg{
+
+.detail_category__location svg {
     color: #383B58;
 }
-.detail_category__location p{
+
+.detail_category__location p {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 
-/* B - DB COLOR 2 */
+    /* B - DB COLOR 2 */
 
-color: #383B58;
+    color: #383B58;
 
-transform: rotate(-0.16deg);
+    transform: rotate(-0.16deg);
 
 }
+
 .detail_category__name p {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
 
-/* B - DB COLOR 2 */
+    /* B - DB COLOR 2 */
 
-color: #383B58;
+    color: #383B58;
 
-transform: rotate(-0.16deg);
+    transform: rotate(-0.16deg);
 }
+
 .category-location__icon svg {
     color: #383B58;
 }
+
 .detail_category__descrip p {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 
-/* B - DB COLOR 2 */
+    /* B - DB COLOR 2 */
 
-color: #383B58;
+    color: #383B58;
 
-transform: rotate(-0.16deg);
+    transform: rotate(-0.16deg);
 
+}
+
+.detail-category__punt {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-top: 18px;
+
+
+}
+
+.category__puntaje {
+    width: 34px;
+    height: 27px;
+    background: #383B58;
+    /* B - DB COLOR 2 */
+
+    border: 1px solid #383B58;
+    border-radius: 10px;
+    transform: rotate(-0.16deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4px;
+
+
+}
+
+.detail-category__punt p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    transform: rotate(-0.16deg);
+
+}
+
+.category__puntaje p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* B - DB COLOR 4 */
+
+    color: #F3F1ED;
+
+    transform: rotate(-0.16deg);
+}
+
+.detail_category__descrip {
+    margin-bottom: 10px;
+    width: 295px;
+    height: 52px;
+}
+
+.detail_category__descrip p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    transform: rotate(-0.16deg);
+}
+
+.category-location__icon svg {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.detail_category__location svg {
+    margin-right: 8px;
 }
