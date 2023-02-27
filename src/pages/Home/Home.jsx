@@ -64,8 +64,8 @@ const Home = ()=>{
     return (<div className="main-container">
         <Search/>
          {/* <CategoryProducts /> */}
-        <RecomDetailProducts detailInfor={detailInfor}/>
-        
+       <RecomDetailProducts detailInfor={detailInfor}/>
+         
         </div>
     )
 }
