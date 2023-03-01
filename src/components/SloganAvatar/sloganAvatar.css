@@ -1,0 +1,20 @@
+.navBar_logoName {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navBar_logoName p {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+}

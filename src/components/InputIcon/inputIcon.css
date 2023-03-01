@@ -1,0 +1,40 @@
+.container_dropDown {
+   
+    height: 42px;
+    margin-bottom:4px; ;
+}
+
+.container_dropDown_input  {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    /* input shadow */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px ;
+    border: #FFFFFF;
+    color: #7F7F7F;
+}
+.container_dropDown_input input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    /* input shadow */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px ;
+    border: #FFFFFF;
+    color: #7F7F7F;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: 25px;
+    padding-left: 35px;
+    cursor: pointer;
+    
+}
+.container_dropDown_input img{
+    position: absolute;
+    margin-top:10px ;
+    margin: 10px;
+    color: #7F7F7F;
+    
+}

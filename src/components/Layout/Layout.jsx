@@ -1,4 +1,5 @@
 import React from "react";
+import "./layout.css"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
@@ -6,7 +7,7 @@ import Footer from "../Footer/Footer";
   return (
     <div className="layout">
       <Header />
-      <main>{children}</main>
+     {children}
       <Footer />
     </div>
   );

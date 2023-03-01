@@ -1,0 +1,14 @@
+.navBar_Name{
+    margin:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   
+}
+
+.navBar_Name p{
+    color: var(--gray);
+}
+.navBar_Name p:nth-child(2n) {
+    color:var(--primary-color) ;
+}

@@ -1,21 +1,23 @@
 .header {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
-	position: sticky;
-	top: 0;
-	background-color: var(--white);
-	z-index: 10;
-	padding-inline: 2rem;
-    border: 2px solid #F0572D;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: var(--white);
+    z-index: 10;
+    padding-inline: 2rem;
+    width:  100%;
 }
+
 .header__slogan {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 1rem;
 }
+
 .header__slogan p {
 	font-style: italic;
 	font-weight: 300;

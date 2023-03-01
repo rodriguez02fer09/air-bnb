@@ -8,6 +8,7 @@ import {
 
 const Footer = () =>
 	<footer className="footer">
+	
 		<p>©2022 Digital Booking</p>
 		<div className="social-media">
 			<FaFacebook/>
