@@ -12,6 +12,7 @@ const RecomDetailProducts = ({detailInfor  = [] }) => {
       <div className="container_cards__title">
       <h2>Recomendaciones</h2>
       </div>
+  
       <div className="container_cards">
         {detailInfor.map(({ image,category,title,puntaje,definicion,location,description}, index) => {
           return (
@@ -27,6 +28,7 @@ const RecomDetailProducts = ({detailInfor  = [] }) => {
             </div>
           );
         })}
+        
       </div>
     </div>
   );
