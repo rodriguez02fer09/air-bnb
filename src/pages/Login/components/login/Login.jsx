@@ -1,7 +1,6 @@
 import React , {useState} from "react";
 import "./login.css";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
+
 
 const formLogin= {
   email:" ",
