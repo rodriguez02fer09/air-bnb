@@ -34,6 +34,16 @@
     padding-block: 10px;
 }
 
+.container-input_input.container-input_error{
+    background: #FFE1E1;
+    border: 1px solid #FF0000;
+    /* input shadow */
+    
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+}
+
 .input_0 {
     width: 218px;
     height: 40px;
@@ -52,4 +62,15 @@
 .input_3 {
     width: 448px;
     height: 40px;
+}
+
+.container-input_error p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FF0000;
+
 }

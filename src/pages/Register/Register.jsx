@@ -51,7 +51,7 @@ const  handlerOnChange = (event) => {
 
           <Input label="Correo Electronico" type="text" size="3" value={register.email} />
           <Input label="Contraseña" type="password" size="3"  value={register.password}/>
-          <Input label="Confirmar Contraseña" type="password" size="3" value={register.confirPassword}/>
+          <Input label="Confirmar Contraseña" type="password" size="3" value={register.confirPassword} error="error" />
           
           <div className="container_button">
           <Button text="Crear cuenta" style="dark" size="1" />
