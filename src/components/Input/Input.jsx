@@ -7,7 +7,6 @@ const Input = ({label, type, size, value ,name, handlerchange}) => {
         <div className={`${classNew}`}>
             <label className={`${classNew}_label`}>{label}</label>
             <input type={type} className={`${classNew}_input input_${size}`} value={value} name={name} onChange={handlerchange}/>
-
         </div>
     )
 

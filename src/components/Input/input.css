@@ -7,8 +7,6 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-
-
 }
 
 .container-input_input {
@@ -19,9 +17,10 @@
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
     border: none;
     margin: 5px 0px;
+}
 
-
-
+.container_input Input:nth-child(1n) {
+    margin-left: 1px;
 }
 
 .container-input__input:focus {
@@ -51,6 +50,6 @@
 }
 
 .input_3 {
-    width: 422px;
+    width: 448px;
     height: 40px;
 }
