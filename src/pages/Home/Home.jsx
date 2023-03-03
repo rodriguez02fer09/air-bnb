@@ -37,7 +37,7 @@ import CategoryProducts from "../../components/CategoryProcuts/CategoryProducts"
         "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRlcGFydGFtZW50b3MlMjBiZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
 
       category: "Hotel",
-     stars: "4",
+     stars: "3",
       puntaje: "6",
       definicion: "Muy Bueno ",
       title: "El Oasis",
@@ -50,7 +50,7 @@ import CategoryProducts from "../../components/CategoryProcuts/CategoryProducts"
        image:
          "https://images.unsplash.com/photo-1630994347131-96d17ec41ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJlZCUyMGFuZCUyMGJyZWFrZmFzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
        category: "Hotel",
-      stars: "5",
+      stars: "4",
       puntaje: "8",
       definicion: "Muy Bueno ",
        title: "Amanvari",

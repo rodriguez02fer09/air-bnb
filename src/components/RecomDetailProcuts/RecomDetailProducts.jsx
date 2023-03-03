@@ -14,7 +14,7 @@ const RecomDetailProducts = ({detailInfor  = [] }) => {
       </div>
   
       <div className="container_cards">
-        {detailInfor.map(({ image,category,title,puntaje,definicion,location,description}, index) => {
+        {detailInfor.map(({ image,category,title,puntaje,definicion,location,description, stars}, index) => {
           return (
             <div className="container_card_detail">
               <div className="container_cards_img">
@@ -22,7 +22,7 @@ const RecomDetailProducts = ({detailInfor  = [] }) => {
                 <FaHeart />
               </div>
               <div className="container_detail__information">
-               <DetailCards category={category} title={title} puntaje={puntaje} definicion={definicion} location={location} description={description}  />
+               <DetailCards category={category} title={title} puntaje={puntaje} star={stars} definicion={definicion} location={location} description={description}  />
                <Button text="Ver más" style="dark" size="2" /> 
                </div>
             </div>
