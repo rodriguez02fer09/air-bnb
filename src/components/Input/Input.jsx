@@ -3,7 +3,7 @@ import "../Input/input.css"
 
 const Input = ({label, type, size, value ,name, handlerchange ,errors}) => {
 
-    const className = errors[name] ? 'container-input_error container-input': 'container-input';
+    const className = errors[name] ? 'container-input_errors container-input': 'container-input';
     return(
         <div className={`${className}`}>
             <label className={`${className}_label`}>{label}</label>

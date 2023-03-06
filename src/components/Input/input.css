@@ -20,7 +20,7 @@
 }
 
 .container_input Input:nth-child(1n) {
-    margin-left: 1px;
+    margin-left:3px;
 }
 
 .container-input__input:focus {
@@ -68,9 +68,17 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;
+    text-align: left;
     
     color: #FF0000;
     
 
 }
+ /* .container-input_input.container-input_valid:valid  {
+  
+  background-color: #fff;
+    border: 1px solid #green;;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+}   */

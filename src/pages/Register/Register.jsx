@@ -69,10 +69,10 @@ const Register = () => {
     const nuevosErrores = {};
 
     if (!registro.name.trim()) {
-      nuevosErrores.nombre = 'El nombre es obligatorio';
+      nuevosErrores.name ='Elnombre es obligatorio';
     }
     if (!registro.lastName.trim()) {
-      nuevosErrores.nombre = 'El nombre es obligatorio';
+      nuevosErrores.lastName = 'El Apellido es obligatorio';
     }
     if (!registro.email.trim()) {
       nuevosErrores.email = 'El email es obligatorio';
@@ -81,10 +81,14 @@ const Register = () => {
     }
     if (!registro.password.trim()) {
       nuevosErrores.password = 'La contraseña es obligatoria';
-    } else if (registro.password.length < 8) {
+    } else if (registro.password.length >= 8) {
       nuevosErrores.password = 'La contraseña debe tener al menos 8 caracteres';
     }
-
+    if (!registro.confirPassword.trim()) {
+      nuevosErrores.confirPassword = 'La contraseña es obligatoria';
+    } else if (registro.confirPassword.length >= 8) {
+      nuevosErrores.confirPassword = 'La contraseña debe tener al menos 8 caracteres';
+    }
 
      // Actualizar estado de errores
     setErrores(() =>nuevosErrores);
