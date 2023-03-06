@@ -26,10 +26,8 @@ const DetailCards = ({
           <div className="detail_category__product">
             <p>{category}</p>
             <div className="detail_category__stars">
-                
-                  {renderStarts(star, "#F0572D")}
-                  {renderStarts(5 - star , "#31363F")}
-              
+              {renderStarts(star, "#F0572D")}
+              {renderStarts(5 - star, "#31363F")}
             </div>
           </div>
           <div className="detail_category__name">
