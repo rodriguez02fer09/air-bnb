@@ -1,6 +1,11 @@
-import React, { startTransition } from "react";
+import React from "react";
 import "./detailCards.css";
-import { FaWifi, FaSwimmer, FaStar, FaMapMarkerAlt } from "react-icons/fa";
+import { FaWifi, FaSwimmer } from "react-icons/fa";
+import DetailCategoryName from "../DetailCategoryName/DetailCategoryName";
+import DetailCategoryPuntaje from "../DetailCategoryPuntaje/DetailCategoryPuntaje";
+import DetailCategoryStars from "../DetailCategoryStars/DetailCategoryStars";
+import DetailCategoryLocation from "../DetailCategoryLocation/DetailCategoryLocation";
+import DetailCategoryDescription from "../DetailCategoryDescription/DetailcategoryDescription"
 
 const DetailCards = ({
   category,
@@ -11,54 +16,21 @@ const DetailCards = ({
   location,
   description,
 }) => {
-  const renderStarts = (quantity, color) => {
-    const quantityStars = [];
-    for (let i = 0; i < quantity; i++) {
-      quantityStars.push(<FaStar key={i} color={color} />);
-    }
-    return quantityStars.map((start) => start);
-  };
-
   return (
     <div className="main-container__detail">
       <div className="container-detail_info">
         <div className="container-detail_category">
-          <div className="detail_category__product">
-            <p>{category}</p>
-            <div className="detail_category__stars">
-              {renderStarts(star, "#F0572D")}
-              {renderStarts(5 - star, "#31363F")}
-            </div>
-          </div>
-          <div className="detail_category__name">
-            <p>{title}</p>
-          </div>
+          <DetailCategoryStars star={star} />
+          <DetailCategoryName category={category} title={title} />
         </div>
-        <div className="detail-category__punt">
-          <div className="category__puntaje">
-            <p>{puntaje}</p>
-          </div>
-          <p>{definicion}</p>
-        </div>
+        <DetailCategoryPuntaje puntaje={puntaje} definicion={definicion} />
       </div>
-      <div className="detail_category__location">
-        <FaMapMarkerAlt />
-        <p>
-          {" "}
-          {location}
-          <a> Mostrar en el mapa</a>
-        </p>
-      </div>
+      <DetailCategoryLocation location={location} />
       <div className="category-location__icon">
         <FaWifi />
         <FaSwimmer />
       </div>
-      <div className="detail_category__descrip">
-        <p>
-          {description}
-          <a href="">Ver màs ... </a>
-        </p>
-      </div>
+      <DetailCategoryDescription description={description} />
     </div>
   );
 };

@@ -18,24 +18,7 @@ const nombreaPropiedad = "name";
 // formRegister['name']  ="fernanda"
 // formRegister[nombreaPropiedad]  = fernanda"
 
-const errors = {
-  name: {
-    error: "",
-  },
 
-  lastName: {
-    error: "",
-  },
-  email: {
-    error: "",
-  },
-  password: {
-    error: " ",
-  },
-  confirPassword: {
-    error: " ",
-  },
-};
 const formRegistro = {
   name: " ",
   lastName: " ",
@@ -151,8 +134,6 @@ const Register = () => {
           value={registro.confirPassword}
           handlerchange={handlerOnChange}
           name="confirPassword"
-          error="error"
-       
           errors={errores}
 
         />

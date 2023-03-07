@@ -1,0 +1,40 @@
+
+.detail_category__descrip p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    transform: rotate(-0.16deg);
+
+}
+
+.detail_category__descrip {
+    margin-bottom: 10px;
+    width: 295px;
+    height: 52px;
+}
+
+.detail_category__descrip p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    transform: rotate(-0.16deg);
+}
+
+.category-location__icon svg {
+    margin-right: 10px;
+    margin-left: 5px;
+}

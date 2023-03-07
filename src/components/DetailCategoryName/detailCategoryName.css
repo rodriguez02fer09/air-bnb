@@ -1,0 +1,29 @@
+
+.detail_category__product p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    opacity: 0.5;
+    transform: rotate(-0.16deg);
+
+}
+.detail_category__name p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* B - DB COLOR 2 */
+
+    color: #383B58;
+
+    transform: rotate(-0.16deg);
+}
