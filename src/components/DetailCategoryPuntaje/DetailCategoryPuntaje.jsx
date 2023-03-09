@@ -4,11 +4,13 @@ import "./detailCategoryPuntaje.css"
 
 const DetailCategoryPuntaje =({puntaje , definicion})=>{
     return(
-        <div className="detail-category__punt">
-          <div className="category__puntaje">
+        <div className="detail-category__point">
+          <div className="detail-category__point__value">
             <p>{puntaje}</p>
           </div>
-          <p>{definicion}</p>
+          <div className="detail-category__point__definition">
+            <p>{definicion}</p>
+          </div>
         </div>
     )
 

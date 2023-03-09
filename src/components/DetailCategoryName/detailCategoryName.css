@@ -1,4 +1,18 @@
+.detail_category{
+    width: 208px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+   
+}
 
+.detail_category__product  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 .detail_category__product p {
     font-family: 'Roboto';
     font-style: normal;
@@ -14,6 +28,7 @@
     transform: rotate(-0.16deg);
 
 }
+
 .detail_category__name p {
     font-family: 'Roboto';
     font-style: normal;
